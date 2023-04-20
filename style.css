@@ -21,13 +21,20 @@ main{
     font-weight: 900;
     ;
 }
+img{
+    height: 80px;
+    background-color: black;
+    float: left;
+}
 h5{
     color: black;
     font-weight: lighter;
     text-align: center;
 }
-section{
-    margin: 2.5rem;
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
 }
 
 body{
@@ -41,7 +48,7 @@ body{
 
 section, header{
     text-align: center;
-    margin: 2.5rem 10rem;
+    margin: 20px 50px;
     margin-top: 30px;
     
     
@@ -50,5 +57,10 @@ section, header{
     width: calc(100% /3);
     text-align: center;
     float: left;
-    border: 3px solid red;
+    border: 15px solid rgb(251, 249, 249);
+    background-color: black;
+}
+.box{
+    float: left;
+   
 }
