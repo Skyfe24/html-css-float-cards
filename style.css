@@ -10,10 +10,12 @@
     background-color: rgb(254, 254, 253);
     max-width: 1200px;
     margin: 0;
+    padding-bottom: 100px;
     
 }
 main{
-    padding: 0 100px;
+    padding: 33px;
+    margin-bottom:  300px;
 }
 .title{
     color: rgb(225, 38, 163);
@@ -30,6 +32,7 @@ h5{
     color: black;
     font-weight: lighter;
     text-align: center;
+    margin-bottom: 30px;
 }
 .clearfix::after{
     content: '';
@@ -46,21 +49,28 @@ body{
     font-family: 'Fredoka', sans-serif;
 }
 
-section, header{
+section{
+    margin: 12px 36px;
+
+} 
+
+header{
     text-align: center;
     margin: 20px 50px;
-    margin-top: 30px;
+    padding-top: 35px;
     
     
 }
 .column{
-    width: calc(100% /3);
-    text-align: center;
+    width: calc(100% /3 - 12px);
     float: left;
-    border: 15px solid rgb(251, 249, 249);
+    margin-right: 12px;
     background-color: black;
 }
 .box{
     float: left;
    
+}
+.email{
+    font-size: 13px;
 }
