@@ -4,30 +4,49 @@
     box-sizing: border-box;
 }
 
+/* utility*/
+
+.container{
+    background-color: rgb(254, 254, 253);
+    max-width: 1200px;
+    margin: 0;
+    
+}
+main{
+    padding: 0 100px;
+}
+.title{
+    color: rgb(225, 38, 163);
+    font-size: 40px;
+    font-weight: 900;
+    ;
+}
+h5{
+    color: black;
+    font-weight: lighter;
+    text-align: center;
+}
+section{
+    margin: 2.5rem;
+}
+
 body{
-    background-color: blue;
+    background-color: rgb(30, 30, 39);
     max-width: 1080px;
     height: 200px;
     color: white;
-}
-
-.container{
-    background-color: white;
-    width: 1080px;
-}
-
-header{
-    text-align: center;
-    width: 80%;
-    margin: auto;
-}
-
-.title{
-    color: blueviolet;
-    font-size: 80px;
+    margin: 2% 10%;
     font-family: 'Fredoka', sans-serif;
 }
 
-.normaltext{
-    color: black;
+section, header{
+    text-align: center;
+    margin: 2.5rem 10rem;
+    margin-top: 30px;
+    
+    
+}
+.column{
+    text-align: center;
+    width: calc(100% /3);
 }
