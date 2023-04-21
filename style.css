@@ -15,7 +15,7 @@
 }
 main{
     padding: 33px;
-    margin-bottom:  300px;
+    margin-bottom:  100px;
 }
 .title{
     color: rgb(225, 38, 163);
@@ -27,6 +27,7 @@ img{
     height: 80px;
     background-color: black;
     float: left;
+    margin-right: 10px;
 }
 h5{
     color: black;
